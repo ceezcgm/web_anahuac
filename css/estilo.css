@@ -1,0 +1,131 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@charset "UTF8";
+
+*,*:before, *:after{
+  box-sizing:border-box
+}
+html,body {background-color :#dddddd;
+margin:0;}
+header {background-color:#ff8080;
+  font-family: Bebas Kai;
+  font-size: 2em ;
+align-content: center;
+text-align: center;
+grid-column:1/4;
+grid-row:1/1;}
+
+  
+  .container{
+    display: grid;
+    grid-gap:1em;
+    text-align: center;
+    align-content: center;
+    font-family: Bebas Kai;
+    font-size: 3em;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    
+       }
+  .sitio{
+    font-size:2em;
+    grid-column:2/3;
+    grid-row:3/3;
+    font-family: Bebas Kai;
+    background-color:#ff8080;
+
+  }
+
+  .logo{ grid-column:2/2;
+    grid-row:2/3;
+    width:700px;
+  
+   }
+
+ 
+    
+      
+   
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container{
+    
+  grid-template-columns: 100px 500px;
+  grid-template-rows: 200px;}
+  header{
+    font-size: 0.7em;
+        }
+  .sitio{
+    font-size: 0.7em;
+    
+        }
+  .logo{
+    width:750px;
+    grid-column:1/4;
+  
+       }
+       #Layer_1{
+        width:500px;
+        grid-column:1/4;
+        }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .container{
+      background-color: aqua;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .container{
+    background-color: #ff8080;
+      grid-template-columns: 50px;
+      grid-template-rows: 200px ;}
+      header{
+        font-size: 0.7em;
+            }
+      .sitio{
+        font-size: 0.7em;
+        
+            }
+      .logo{
+        width:50px;
+        
+        grid-column:1/2;
+        
+      
+           }
+           #Layer_1{
+            width:350px;
+            }
+      
+    
+   
+    
+  }

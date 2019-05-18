@@ -1,0 +1,33 @@
+html{
+    font-family: 'questrial';
+    color:white;
+}
+
+
+
+.columna1{
+    text-align: center;
+    color:white;
+    background-color: #393939
+}
+
+.columna2{
+    text-align: center;
+    color:white;
+    background-color:#4f4f4f;
+}
+
+.columna3{
+    text-align: center;
+    color:white;
+    background-color: #595959;
+}
+
+.container2{
+    font-size:0.5em;
+    height:5%;
+}
+.btn btn-primary{
+    height:5%;
+    width:7%;
+}

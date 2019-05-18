@@ -1,0 +1,29 @@
+body {background-color:black; color: white; }
+      .container {
+        margin: 0 auto;
+        width: 80%;
+      }
+      #tua{
+        width: 450px;
+        float: left;
+        shape-outside: circle(50%);
+      }
+      #tua2{
+        width: 450px;
+        float: right;
+        shape-outside: polygon(14px 118px, 242px 232px, 181px 23px);
+      }
+      #tua3{
+        width: 450px;
+        float: left;
+        clip-path: ellipse(180px 116px at 41.03% 56.95%);
+      }
+      #tua4{
+        width: 450px;
+        float: right;
+        shape-outside: url(images/umbrella.png);
+      }
+      #tumb{
+        width: 450px;
+        float: left;
+        clip-path: url(#myClip)
